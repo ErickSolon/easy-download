@@ -7,7 +7,7 @@ links = [
     "https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.msi",
     "https://gluonhq.com/products/scene-builder/thanks/?dl=https://download2.gluonhq.com/scenebuilder/18.0.0/install/win/SceneBuilder-18.0.0.msi",
     "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe",
-    "https://downloadsapachefriends.global.ssl.fastly.net/8.1.10/xampp-windows-x64-8.1.10-0-VS16-installer.exe"
+    "https://downloadsapachefriends.global.ssl.fastly.net/8.1.10/xampp-windows-x64-8.1.10-0-VS16-installer.exe",
     "https://download.virtualbox.org/virtualbox/6.1.38/VirtualBox-6.1.38-153438-Win.exe",
 ]
 
