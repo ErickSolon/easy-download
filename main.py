@@ -15,12 +15,28 @@ else:
 for download_files in lista.links:    
     Requests_Download.download_file(download_files)
     
-download_selenium = Selenium_Download()
-download_selenium.Download_Kanban_Tasker()
-download_selenium.Download_Postman()
-download_selenium.Download_VS()
-download_selenium.Download_Vscode()
-    
-    
+visual_studio = Selenium_Download(
+    driver="driver\geckodriver.exe",
+    exe=lista.links[10],
+    element="/html/body/div[3]/main/div/div/div/div/div[2]/div/div/div/div[1]/div[3]/div/div[1]/div[1]/div/div[3]/div/div/a/span"
+)
+
+postman = Selenium_Download(
+    driver="driver\geckodriver.exe",
+    exe=lista.links[11],
+    element=None
+)
+
+visual_studio_code = Selenium_Download(
+    driver="driver\geckodriver.exe",
+    exe=lista.links[12],
+    element=None
+)
+
+kanban = Selenium_Download(
+    driver="driver\geckodriver.exe",
+    exe=lista.links[13],
+    element="/html/body/div/div[3]/div/div/div[1]/div[1]/div[2]/button/span/div/font"
+)
 
 

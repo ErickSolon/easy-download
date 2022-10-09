@@ -9,9 +9,8 @@ links = [
     "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe",
     "https://downloadsapachefriends.global.ssl.fastly.net/8.1.10/xampp-windows-x64-8.1.10-0-VS16-installer.exe",
     "https://download.virtualbox.org/virtualbox/6.1.38/VirtualBox-6.1.38-153438-Win.exe",
+    "https://visualstudio.microsoft.com/pt-br/downloads/",
+    "https://dl.pstmn.io/download/latest/win64",
+    "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "https://apps.microsoft.com/store/detail/kanban-tasker/9NMKTDZ3L9LQ?hl=pt-br&gl=br"
 ]
-
-download_visual_studio = ["https://visualstudio.microsoft.com/pt-br/downloads/"]
-download_postman = ["https://www.postman.com/downloads/"]
-download_visual_studio_code = ["https://code.visualstudio.com/download"]
-download_kanban_tasker = ["https://apps.microsoft.com/store/detail/kanban-tasker/9NMKTDZ3L9LQ?hl=pt-br&gl=br"]
